@@ -1,0 +1,588 @@
+/* Estilos para la Barra de Navegación */
+header {
+    background-color: #B30000; /* Color de fondo del encabezado */
+    color: #fff; /* Color del texto */
+    padding: 25px 0;
+    margin-top: -25px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+  
+  .logo img {
+    height: 90px; /* Ajusta el tamaño del logo */
+  }
+  
+  .enlaces {
+    display: flex;
+  flex-grow: 1; /* Ocupa todo el espacio disponible */
+  justify-content: center; /* Centra los enlaces principales */
+  gap: 20px; /* Espaciado entre los enlaces */
+  }
+  
+  .enlace {
+    padding: 18px 26px;
+    border: 1px solid #fff; /* Borde de los enlaces */
+    border-radius: 5px;
+  }
+  
+  .enlace a {
+    font-family: 'Montserrat', sans-serif; /* Cambia la fuente a Montserrat */
+    color: #fff; /* Color del texto de los enlaces */
+    text-decoration: none;
+    font-size: 20px; /* Tamaño de la fuente para los enlaces */
+  }
+  
+  .ingresar {
+    margin-left: auto; /* Empuja el elemento a la derecha */
+  }
+
+  .ingresar a {
+    font-family: 'Montserrat', sans-serif; /* Cambia la fuente a Montserrat */
+    padding: 30px 40px;
+    background-color: #FFFFFF; /* Color de fondo del botón "Ingresar" */
+  color: #333333; /* Color del texto del botón "Ingresar" */
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 22px; /* Tamaño de la fuente para los ingresar */
+  }
+
+  .salir {
+    margin-left: auto; /* Empuja el elemento a la derecha */
+  }
+
+  .salir a {
+    font-family: 'Montserrat', sans-serif; /* Cambia la fuente a Montserrat */
+    padding: 30px 40px;
+    background-color: #FFFFFF; /* Color de fondo del botón "Ingresar" */
+  color: #333333; /* Color del texto del botón "Ingresar" */
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 22px; /* Tamaño de la fuente para los ingresar */
+  }
+
+  /* Estilos para la Primera Sección */
+  .seccion-1 {
+    background-color: #D2B48C;
+    height: 300px;
+  }
+  
+  .contenido {
+    margin-left: auto;
+    text-align: left; /* Alinea el texto y elementos inline a la derecha */
+  }
+  
+  .titulo-principal {
+    font-family: 'Pacifico', cursive; /* Aplicar la fuente Pacifico */
+    font-size: 60px; /* Ajustar el tamaño */
+    margin-bottom: 5px; /* Reducir el espacio inferior */
+    color: #333333; /* Cambiar el color del texto si es necesario */
+    margin-top: -20px; /* Subir el título */
+  }
+  
+  .subtitulo {
+    font-family: 'Pacifico', cursive; /* Aplicar la fuente Pacifico */
+    font-size: 40px; /* Ajustar el tamaño */
+    margin-top: 0; /* Eliminar margen superior para que estén más cerca */
+    color: #333333; /* Cambiar el color del texto si es necesario */
+    margin-top: -10px; /* Subir el subtítulo */
+  }
+  
+  .boton {
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px 40px; /* Ajustar el padding para aumentar el tamaño */
+    background-color: #FFD700;
+    color: #333333;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 24px; /* Ajustar el tamaño de la fuente */
+  }
+  
+  /*seccion 2*/
+  .seccion-dos {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px 0;
+    background-color: #333333; /* Fondo oscuro */
+    color: #FFFFFF; /* Texto blanco */
+    border-bottom: 3px solid #D2B48C; /* Línea divisoria */
+  }
+
+  .izquierda {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end
+  }
+  
+  .izquierda img {
+    max-width: 100%;
+  height: auto;
+  border-radius: 0;
+  }
+  
+  .derecha {
+    flex: 1;
+    padding: 0 20px;
+    text-align: left;
+  }
+  
+  .derecha h2 {
+    font-size: 50px;
+    margin-bottom: 10px;
+    color: #D2B48C; /* Texto beige */
+  }
+  
+  .derecha h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .derecha p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+  /*Seccion 3*/
+  .seccion-tres {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding: 100px 0;
+    position: relative;
+    background-color: #333333; /* Fondo oscuro */
+    color: #FFFFFF; /* Texto blanco */
+    overflow: hidden;
+  }
+  
+  .izquierda {
+    flex: 1;
+    padding: 0 10px;
+    text-align: left;
+    display: flex;
+    flex-direction: column; /* Cambia la dirección del contenido a columna */
+  }
+  
+  .izquierda h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #D2B48C
+  }
+  
+  .izquierda p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+
+  .imagen-container {
+    width: 100%; /* Ajustar el ancho al 100% */
+    max-width: 1280px; /* Establecer el ancho máximo */
+    margin: 20px auto 0; /* Agrega un margen superior para separar la imagen del texto */
+    text-align: center; /* Centra la imagen */
+  }
+  
+  .imagen-container img {
+    max-width: 100%; /* Ajusta el tamaño máximo de la imagen al contenedor */
+    height: auto; /* Mantener la proporción de aspecto */
+    display: block; /* Evitar espacios adicionales */
+    margin-top: 20px; /* Espacio superior */
+  }
+  
+  .derecha {
+    flex: 1;
+    padding: 0 20px;
+    text-align: left;
+  }
+  
+  .derecha h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  
+  .derecha p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .familias {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .familia {
+    text-align: center;
+  }
+  
+  .familia img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 5px;
+  }
+
+  /* Sección 3 - Línea vertical */
+.seccion-tres::before {
+  content: '';
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 50%; /* Posición en el centro */
+  border-left: 1px solid #D2B48C; /* Línea vertical */
+  z-index: 1; /* Asegura que esté delante del contenido */
+}
+
+/*Seccion 4*/
+.seccion-cuatro {
+  position: relative;
+  display: flex;
+  padding: 50px;
+  color: #ffffff; /* Texto en blanco */
+  background-image: url('imagenes/06.jpg'); /* Fondo de la imagen oscura */
+  background-size: cover;
+  text-align: center;
+}
+
+.seccion-cuatro::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Color negro semitransparente */
+}
+
+.contenido {
+  position: relative;
+  z-index: 1;
+  max-width: 800px;
+  margin: 0 auto; /* Para centrar el contenido */
+}
+
+.seccion-cuatro h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #d2b48c; /* Cambiado a minúsculas para consistencia */
+}
+
+.seccion-cuatro p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin: 0 auto; /* Para centrar el contenido */
+}
+
+/*seccion 5*/
+.seccion-cinco {
+  padding: 50px;
+  background-color: #F2F2F2; /* Color de fondo */
+  text-align: center;
+}
+
+.seccion-cinco-tipos h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.fila {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.columna {
+  flex: 1;
+  padding: 10px;
+  max-width: 200px;
+  text-align: center;
+}
+
+.columna img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.texto {
+  background-color: #FFFFFF;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.texto h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.texto p {
+  font-size: 14px;
+  line-height: 1.4;
+  margin: 0;
+}
+
+/* Seccion 6 */
+.seccion-seis {
+  padding: 20px;
+  background-color: #333333; /* Color de fondo */
+  text-align: center;
+}
+
+.seccion-seis h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #D2B48C;
+}
+
+.fila {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.columna {
+  flex: 1;
+  padding: 10px;
+  max-width: 200px;
+  text-align: center;
+  background-color: #ffffff; /* Fondo de las columnas */
+  border-radius: 5px; /* Bordes redondeados para las columnas */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.columna img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.texto {
+  padding: 10px;
+}
+
+.texto h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.texto p {
+  font-size: 14px;
+  line-height: 1.4;
+  margin: 0;
+}
+
+
+/* Seccion 7 */
+.seccion-siete {
+  display: flex;
+  background-color: #333333; /* Color de fondo oscuro */
+  color: #ffffff; /* Texto blanco */
+}
+
+.izquierda1::before,
+.derecha1::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Cambia el valor alpha para ajustar el nivel de oscurecimiento */
+}
+
+.izquierda1 {
+  flex: 1;
+  padding: 40px; /* Ajusta el espacio interno */
+  background-image: url('imagenes/18.jpg'); /* Agrega la imagen de fondo */
+  background-size: cover;
+  position: relative;
+}
+
+.derecha1 {
+  flex: 1;
+  padding: 40px; /* Ajusta el espacio interno */
+  background-image: url('imagenes/17.jpg'); /* Agrega la imagen de fondo */
+  background-size: cover;
+  position: relative;
+}
+
+.izquierda1 h2,
+.derecha1 h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+  color: #D2B48C; /* Color del título */
+  z-index: 2; /* Asegura que el título esté por encima del fondo oscuro */
+}
+
+.izquierda1 p,
+.derecha1 p {
+  font-size: 16px;
+  line-height: 1.6;
+  position: relative;
+  z-index: 2; /* Asegura que el texto esté por encima del fondo oscuro */
+}
+
+
+/*Pie de pagina*/
+footer {
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #252525;
+  color: #ffffff;
+}
+
+.logo img {
+  border: 2px solid #ffffff; /* Marco resaltado para el logo */
+  border-radius: 5px;
+  padding: 5px;
+  max-width: 100px; /* Ajusta el tamaño del logo */
+}
+
+.contacto p {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.contacto ul {
+  padding: 0;
+  list-style: none;
+}
+
+.contacto li {
+  margin-bottom: 5px;
+}
+
+.creditos p {
+  font-size: 14px;
+}
+
+.contacto a {
+  color: #FFD700; /* Cambia el color de los enlaces */
+  text-decoration: none; /* Elimina el subrayado */
+}
+
+.contacto a:hover {
+  text-decoration: underline; /* Subrayado al pasar el cursor por encima */
+}
+
+/* Estilo para la sección Nosotros */
+.nosotros {
+  text-align: center;
+  margin-bottom: 40px; /* Espacio inferior */
+}
+
+.nosotros h1 {
+  font-family: 'Pacifico', cursive; /* Fuente en cursiva */
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.nosotros p {
+  font-family: 'Roboto', sans-serif; /* Fuente en cursiva */
+  font-size: 16px;
+  line-height: 1.6;
+  max-width: 800px; /* Ajusta el ancho máximo del texto */
+  font-style: italic; /* Cambia el estilo del texto a cursiva */
+  padding: 20px; /* Agrega relleno alrededor del texto */
+  margin: 0 auto 20px; /* Centra el texto horizontalmente y agrega margen inferior */
+  background-color: #f5f5f5; /* Fondo gris claro */
+  border-radius: 5px; /* Borde redondeado */
+}
+
+/* Estilos para la sección del video */
+.video-section {
+  text-align: center;
+  padding: 20px;
+}
+
+.video-section h2 {
+  font-family: 'Pacifico', cursive; /* Fuente en cursiva */
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.video-section p {
+  font-family: 'Roboto', sans-serif; /* Fuente en cursiva */
+  font-size: 16px;
+  line-height: 1.6;
+  max-width: 800px; /* Ajusta el ancho máximo del texto */
+  font-style: italic; /* Cambia el estilo del texto a cursiva */
+  padding: 20px; /* Agrega relleno alrededor del texto */
+  margin: 0 auto 20px; /* Centra el texto horizontalmente y agrega margen inferior */
+  background-color: #f5f5f5; /* Fondo gris claro */
+  border-radius: 5px; /* Borde redondeado */
+}
+
+.video-info h1{
+  font-family: 'Pacifico', cursive; /* Fuente en cursiva */
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+/* Estilos para la sección de Referencias */
+.references-section {
+  text-align: center;
+  padding: 20px;
+}
+
+.references-section h1 {
+  font-family: 'Pacifico', cursive;
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.references-section p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333333;
+  margin-bottom: 20px;
+}
+
+/* Estilos para la lista de referencias */
+.references-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.references-list li {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  overflow: hidden; /* Para evitar que el texto se desborde */
+}
+
+.references-list h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #D2B48C; /* Texto beige */
+  overflow: hidden; /* Evita que el texto se desborde */
+  text-overflow: ellipsis; /* Agrega puntos suspensivos si el texto es demasiado largo */
+  white-space: nowrap; /* Evita saltos de línea */
+}
+
+.references-list p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  color: #333333;
+  margin-bottom: 0;
+  overflow: hidden; /* Evita que el texto se desborde */
+  text-overflow: ellipsis; /* Agrega puntos suspensivos si el texto es demasiado largo */
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* Limita el texto a mostrar solo 3 líneas */
+  -webkit-box-orient: vertical;
+}
